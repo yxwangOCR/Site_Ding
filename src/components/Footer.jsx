@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer className='w-screen h-[80px] flex justify-center items-center bg-marine text-white'>Copyright@2023</footer>
     )
 }
 
