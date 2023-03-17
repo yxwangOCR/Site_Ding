@@ -3,7 +3,7 @@ import HeroImg from "../assets/Anya.jpg"
 
 const Hero = () => {
     return (
-        <div className='flex justify-center'>
+        <div className='flex flex-col justify-center items-center md:flex-row'>
             <div className='w-[50%] flex flex-col justify-center items-center'>
                 <strong>Slogan</strong>
                 <p className=''>
