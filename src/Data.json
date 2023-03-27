@@ -21,7 +21,16 @@
         "temo": "I am extremely pleased with the outstanding service provided by my real estate agent. His professionalism and attention to detail really impressed me throughout the entire process of buying my home. My agent took the time to carefully listen to my needs and preferences for a property, and worked diligently to provide me with options that fit my criteria. He was very patient and explained every step of the process in detail. He also provided excellent support in negotiations with the seller, ensuring that all contract clauses were properly negotiated and recorded. Throughout the process, my agent was very communicative, regularly keeping me informed of developments. He was also very responsive to my concerns and quickly answered all my questions. In the end, I purchased a home that perfectly met my needs, thanks to my agent's excellent service and attention to detail. I highly recommend his professional and detailed service to anyone looking to buy a property.",
         "temoTitle": "Review",
         "letterTitle": "Dear homeowners,",
-        "letter": "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property."
+        "letter": "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property.",
+        "formTitle": "Contact Us",
+        "formText": "In this table, your customers can fill in their first and last name, phone number, email address, type of request (e.g. selling a house, buying a property, renting an apartment, etc.), the address of the property to be sold (if it is a sale request), and additional comments. You can customize the column headers according to your needs.",
+        "formListOne": "Don't miss this unique opportunity.",
+        "formListTwo": "You're just one click away from finding the solution you've been looking for.",
+        "formListThree": "Are you ready to discover the key to success? ",
+        "formListFour": "Don't wait any longer to improve your life.",
+        "customerName": "Your name",
+        "phone": "Your phone number",
+        "message": "Your message"
     },
     "fr": {
         "menuOne": "Accueil",
@@ -45,7 +54,16 @@
         "temo": "Je voulais partager mon expérience extrêmement positive avec mon courtier immobilier, qui a vendu mon immeuble rapidement et à un excellent prix. Mon courtier a été incroyablement professionnel et compétent tout au long du processus de vente, et a fourni un niveau de service exceptionnel. Dès notre première rencontre, j'ai été impressionné par la connaissance approfondie de mon courtier en matière de marché immobilier et de stratégies de vente efficaces. Il a travaillé avec diligence pour comprendre mes besoins et attentes, et a développé un plan de marketing personnalisé pour ma propriété. Grâce à son expertise et à son travail acharné, mon courtier a pu vendre mon immeuble en un temps record, et à un prix bien supérieur à mes attentes. Il a fait preuve d'un professionnalisme exemplaire tout au long du processus de vente, en gardant constamment une communication ouverte et transparente avec moi. Je suis extrêmement reconnaissant pour les compétences et les efforts de mon courtier immobilier, et je le recommande vivement à tous ceux qui cherchent un courtier de confiance pour vendre ou acheter une propriété. Merci beaucoup pour votre excellent travail !",
         "temoTitle": "Témoignage",
         "letterTitle": "Chers propriétaires,",
-        "letter": "En tant que courtier immobilier expérimenté, je sais combien il est important pour vous d'avoir une estimation précise de la valeur de votre propriété. Si vous envisagez de vendre votre maison ou votre appartement, une évaluation détaillée peut vous aider à déterminer le prix de vente optimal. Je vous invite donc à me contacter pour que nous puissions discuter de votre propriété. En laissant votre adresse, je peux fournir une évaluation détaillée et personnalisée de votre propriété, qui prendra en compte les spécificités de votre quartier, les tendances du marché et l'état actuel de votre propriété. Cette évaluation vous aidera à avoir une meilleure idée de la valeur de votre propriété et vous permettra de prendre des décisions éclairées concernant la vente de votre bien immobilier. N'hésitez pas à me contacter en laissant votre adresse ci-dessous. Je serai ravi de vous fournir une évaluation gratuite et détaillée de votre propriété."
+        "letter": "En tant que courtier immobilier expérimenté, je sais combien il est important pour vous d'avoir une estimation précise de la valeur de votre propriété. Si vous envisagez de vendre votre maison ou votre appartement, une évaluation détaillée peut vous aider à déterminer le prix de vente optimal. Je vous invite donc à me contacter pour que nous puissions discuter de votre propriété. En laissant votre adresse, je peux fournir une évaluation détaillée et personnalisée de votre propriété, qui prendra en compte les spécificités de votre quartier, les tendances du marché et l'état actuel de votre propriété. Cette évaluation vous aidera à avoir une meilleure idée de la valeur de votre propriété et vous permettra de prendre des décisions éclairées concernant la vente de votre bien immobilier. N'hésitez pas à me contacter en laissant votre adresse ci-dessous. Je serai ravi de vous fournir une évaluation gratuite et détaillée de votre propriété.",
+        "formTitle": "Contactez nous",
+        "formText": "Dans ce tableau, vos clients peuvent remplir leur nom, prénom, numéro de téléphone, adresse e-mail, le type de demande (par exemple, vente d'une maison, achat d'une propriété, location d'un appartement, etc.), l'adresse de la propriété à vendre (s'il s'agit d'une demande de vente), et les commentaires supplémentaires. Vous pouvez personnaliser les en-têtes de colonnes en fonction de vos besoins.",
+        "formListOne": "Ne manquez pas cette opportunité unique.",
+        "formListTwo": "Vous êtes à un clic de trouver la solution que vous cherchez depuis longtemps.",
+        "formListThree": "Êtes-vous prêt à découvrir la clé de la réussite ?",
+        "formListFour": "N'attendez plus pour améliorer votre vie.",
+        "customerName": "Votre nom",
+        "phone": "Votre numéro de téléphone",
+        "message": "Votre message"
     },
     "ch": {
         "menuOne": "首页",
@@ -69,6 +87,15 @@
         "temo": "非常高兴与我的房地产经纪人合作，他的专业精神让我印象深刻。从开始到结束，他展现出的专业知识和专注精神给我留下了深刻的印象，并且我对最终的结果非常满意。他对当地房地产市场的深刻了解，加上他个性化的方法和注重细节的处理方式，对成功出售我的房产起了至关重要的作用。他时刻保持着沟通的畅通，确保我了解到每一个环节的进展。最让我印象深刻的是他对提供卓越服务的承诺。他不遗余力地确保交易的每个方面都得到顺利和高效的处理，并且特别注重确保我对结果完全满意。我强烈推荐我的经纪人给任何想要买房或卖房的人。他的专业精神和对客户的奉献精神是无与伦比的，我很感激有机会与他合作。非常感谢你的出色工作!",
         "temoTitle": "客户评价",
         "letterTitle": "亲爱的房主们,",
-        "letter": "作为一名经验丰富的房地产经纪人，我知道对您的房产价值进行准确的评估对您来说是多么重要。如果你正在考虑出售你的房子或公寓，一个详细的估价可以帮助你确定最佳的销售价格。我邀请您与我联系，以便我们可以讨论您的房产。只要留下您的地址，我就可以对您的房产进行详细的个性化评估，这将考虑到您所在社区的具体情况，市场趋势和您的房产的当前状况。这种评估将帮助您更好地了解您的房产价值，并让您在出售房产方面做出明智的决定。请在下面留下您的地址，随时与我联系。我很乐意为您提供一份免费的详细房产估价。"
+        "letter": "作为一名经验丰富的房地产经纪人，我知道对您的房产价值进行准确的评估对您来说是多么重要。如果你正在考虑出售你的房子或公寓，一个详细的估价可以帮助你确定最佳的销售价格。我邀请您与我联系，以便我们可以讨论您的房产。只要留下您的地址，我就可以对您的房产进行详细的个性化评估，这将考虑到您所在社区的具体情况，市场趋势和您的房产的当前状况。这种评估将帮助您更好地了解您的房产价值，并让您在出售房产方面做出明智的决定。请在下面留下您的地址，随时与我联系。我很乐意为您提供一份免费的详细房产估价。",
+        "formTitle": "联系我们",
+        "formText": "在这个表中，你的客户可以填写他们的名字和姓氏、电话号码、电子邮件地址、请求的类型（如卖房、买房、租房等）、要出售的房产的地址（如果是出售请求），以及额外的评论。你可以根据你的需要定制列的标题。",
+        "formListOne": "不要错过这个独特的机会。",
+        "formListTwo": "你只需点击一下就能找到你一直在寻找的解决方案。",
+        "formListThree": "你准备好发现成功的关键了吗？",
+        "formListFour": "不要再等待，现在就开始改善你的生活",
+        "customerName": "名字",
+        "phone": "电话",
+        "message": "给我们留言"
     }
 }

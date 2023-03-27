@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Presentation from "./components/Presentation";
 import Testimony from "./components/Testimony";
 import Letter from "./components/Letter";
+import Form from "./components/Form";
 import Footer from "./components/Footer";
 import Data from "./Data.json"
 
@@ -58,6 +59,16 @@ function App() {
         temo={content.temo ? content.temo : "I am extremely pleased with the outstanding service provided by my real estate agent. His professionalism and attention to detail really impressed me throughout the entire process of buying my home. My agent took the time to carefully listen to my needs and preferences for a property, and worked diligently to provide me with options that fit my criteria. He was very patient and explained every step of the process in detail. He also provided excellent support in negotiations with the seller, ensuring that all contract clauses were properly negotiated and recorded. Throughout the process, my agent was very communicative, regularly keeping me informed of developments. He was also very responsive to my concerns and quickly answered all my questions. In the end, I purchased a home that perfectly met my needs, thanks to my agent's excellent service and attention to detail. I highly recommend his professional and detailed service to anyone looking to buy a property."} />
       <Letter letterTitle={content.letterTitle ? content.letterTitle : "Dear homeowners,"}
         letter={content.letter ? content.letter : "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property."} />
+      <Form
+        formTitle={content.formTitle ? content.formTitle : "Contact Us"}
+        formText={content.formText ? content.formText : "In this table, your customers can fill in their first and last name, phone number, email address, type of request (e.g. selling a house, buying a property, renting an apartment, etc.), the address of the property to be sold (if it is a sale request), and additional comments. You can customize the column headers according to your needs."}
+        formListOne={content.formListOne ? content.formListOne : "Don't miss this unique opportunity."}
+        formListTwo={content.formListTwo ? content.formListTwo : "You're just one click away from finding the solution you've been looking for."}
+        formListThree={content.formListThree ? content.formListThree : "Are you ready to discover the key to success?"}
+        formListFour={content.formListFour ? content.formListFour : "Don't wait any longer to improve your life."}
+        customerName={content.customerName ? content.customerName : "Your name"}
+        phone={content.phone ? content.phone : "Your phone number"}
+        message={content.message ? content.message : "Your message"} />
       <Footer />
     </div>
   );
