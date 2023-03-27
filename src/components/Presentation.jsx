@@ -9,65 +9,66 @@ import {
 
 const Presentation = ({ titleOne, titleTwo, titleThree, titleFour, titleFive, titleSix, presentationText, expertiseText, approachText, networkText, communicationText, managementText, endText }) => {
     return (
-        <section className="bg-marine " id="presentation">
+        <section className="bg-marine flex flex-col justify-center items-center px-6" id="presentation">
             <h2 className="text-center font-bold py-6 text-white text-2xl">
                 Presentation
             </h2>
-            <div className="flex flex-col w-full justify-center items-center text-center">
-                <article className="bg-white w-full p-6">
-                    <h3>
-                        <b>{titleOne}</b>
-                    </h3>
-                    <p >
-                        {presentationText}
-                    </p>
-                </article>
-                <div className="flex flex-col lg:large-style">
-                    <div className="flex flex-col justify-center items-center w-[30%]">
-                        <h4 className="flex text-white justify-center items-center gap-2 py-2">
+            <div className="flex flex-col justify-center items-center text-center lg:w-[50%]">
+                <div className="text-white">
+                    <article className="p-6 rounded-lg">
+                        <h3>
+                            <b>{titleOne}</b>
+                        </h3>
+                        <p><em>{presentationText}</em></p>
+                    </article>
+                </div>
+
+                <div className="flex flex-col justify-center items-center">
+                    <div className="">
+                        <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <RocketOutlined /> <b>{titleTwo}</b>
                         </h4>
-                        <article className="bg-white p-6 article-style flex justify-center items-center">
+                        <article className="bg-white p-6 flex justify-center items-center rounded-lg">
                             <p className="">
                                 {expertiseText}
                             </p>
                         </article>
                     </div>
-                    <div className="flex flex-col justify-center items-center w-[30%]">
-                        <h4 className="flex text-white justify-center items-center gap-2 py-2">
+                    <div className="">
+                        <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <ReconciliationOutlined /> <b>{titleThree}</b>
                         </h4>
-                        <article className="bg-white p-6 article-style flex justify-center items-center">
+                        <article className="bg-white p-6 flex justify-center items-center rounded-lg">
                             <p>
                                 {approachText}
                             </p>
                         </article>
                     </div>
-                    <div className="flex flex-col justify-center items-center w-[30%]">
-                        <h4 className="flex text-white justify-center items-center gap-2 py-2">
+                    <div className="">
+                        <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <MacCommandOutlined /> <b>{titleFour}</b>
                         </h4>
-                        <article className="bg-white p-6 article-style flex justify-center items-center">
+                        <article className="bg-white p-6 flex justify-center items-center rounded-lg">
                             <p>
                                 {networkText}
                             </p>
                         </article>
                     </div>
-                    <div className="flex flex-col justify-center items-center w-[30%]">
-                        <h4 className="flex text-white justify-center items-center gap-2 py-2">
+                    <div className="">
+                        <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <BulbOutlined /> <b>{titleFive}</b>
                         </h4>
-                        <article className="bg-white p-6 article-style flex justify-center items-center">
+                        <article className="bg-white p-6 flex justify-center items-center rounded-lg">
                             <p>
                                 {communicationText}
                             </p>
                         </article>
                     </div>
-                    <div className="flex flex-col justify-center items-center w-[30%]">
-                        <h4 className="flex text-white justify-center items-center gap-2 py-2">
+                    <div className="">
+                        <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <ApartmentOutlined /> <b>{titleSix}</b>
                         </h4>
-                        <article className="bg-white p-6 article-style flex justify-center items-center">
+                        <article className="bg-white p-6 flex justify-center items-center rounded-lg">
                             <p>
                                 {managementText}
                             </p>
@@ -77,7 +78,7 @@ const Presentation = ({ titleOne, titleTwo, titleThree, titleFour, titleFive, ti
 
                 <div>
                     <article>
-                        <p className="text-white p-2">
+                        <p className="text-white p-8">
                             <b>
                                 <em>
                                     {endText}

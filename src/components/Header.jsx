@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
-import Data from "../Data.json"
 import { Anchor } from "antd";
 
 function Header({ home, service, about, contact }) {
@@ -10,7 +9,7 @@ function Header({ home, service, about, contact }) {
   };
 
   return (
-    <header className="w-screen h-[80px] bg-marine drop-shadow-lg">
+    <header className="w-full ">
       <div className="px-12 flex justify-between items-center w-full h-full">
         <div className="flex items-center text-white">
           <h1 className="text-3xl font-bold mr-4 xs:text-4xl">Ding</h1>

@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Presentation from "./components/Presentation";
+import Testimony from "./components/Testimony";
+import Letter from "./components/Letter";
 import Footer from "./components/Footer";
 import Data from "./Data.json"
 
@@ -21,7 +23,7 @@ function App() {
   })
   return (
     <div>
-      <div className="flex">
+      <div className="w-screen bg-marine h-[80px] drop-shadow-lg flex ">
         <Header
           home={content.menuOne ? content.menuOne : "Home"}
           service={content.menuTwo ? content.menuTwo : "Service"}
@@ -51,6 +53,11 @@ function App() {
         managementText={content.management ? content.management : "I have a great deal of experience in managing complex real estate projects. I can help you coordinate the different stages of your real estate transaction, ensuring that everything goes smoothly."}
         endText={content.end ? content.end : "I am confident that my professional strengths can help you achieve your real estate dreams. Feel free to contact me to discuss your real estate project. I look forward to working with you!"}
       />
+      <Testimony
+        temoTitle={content.temoTitle ? content.temoTitle : "Review"}
+        temo={content.temo ? content.temo : "I am extremely pleased with the outstanding service provided by my real estate agent. His professionalism and attention to detail really impressed me throughout the entire process of buying my home. My agent took the time to carefully listen to my needs and preferences for a property, and worked diligently to provide me with options that fit my criteria. He was very patient and explained every step of the process in detail. He also provided excellent support in negotiations with the seller, ensuring that all contract clauses were properly negotiated and recorded. Throughout the process, my agent was very communicative, regularly keeping me informed of developments. He was also very responsive to my concerns and quickly answered all my questions. In the end, I purchased a home that perfectly met my needs, thanks to my agent's excellent service and attention to detail. I highly recommend his professional and detailed service to anyone looking to buy a property."} />
+      <Letter letterTitle={content.letterTitle ? content.letterTitle : "Dear homeowners,"}
+        letter={content.letter ? content.letter : "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property."} />
       <Footer />
     </div>
   );
