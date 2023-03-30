@@ -29,9 +29,13 @@
         "formListTwo": "You're just one click away from finding the solution you've been looking for.",
         "formListThree": "Are you ready to discover the key to success? ",
         "formListFour": "Don't wait any longer to improve your life.",
+        "formDescription": "GET YOUR FREE PROPERTY ESTIMATE!",
+        "formTextSmall": "Enter your address and get the value",
+        "placeholderOne": "Enter your address or postal code",
         "customerName": "Your name",
         "phone": "Your phone number",
-        "message": "Your message"
+        "buttonText": "Next",
+        "message": "Location field is necessary!"
     },
     "fr": {
         "menuOne": "Accueil",
@@ -63,9 +67,13 @@
         "formListTwo": "Vous êtes à un clic de trouver la solution que vous cherchez depuis longtemps.",
         "formListThree": "Êtes-vous prêt à découvrir la clé de la réussite ?",
         "formListFour": "N'attendez plus pour améliorer votre vie.",
+        "formDescription": "OBTENEZ L'ESTIMATION DE VOTRE PROPRIÉTÉ GRATUITEMENT!",
+        "formTextSmall": "Entrez votre adresse et obtenez la valeur",
+        "placeholderOne": "Saisissez votre adresse ou votre code postal",
         "customerName": "Votre nom",
         "phone": "Votre numéro de téléphone",
-        "message": "Votre message"
+        "buttonText": "Suivant",
+        "message": "Le champ de localisation est nécessaire!"
     },
     "ch": {
         "menuOne": "首页",
@@ -97,8 +105,12 @@
         "formListTwo": "你只需点击一下就能找到你一直在寻找的解决方案。",
         "formListThree": "你准备好发现成功的关键了吗？",
         "formListFour": "不要再等待，现在就开始改善你的生活",
+        "formDescription": "获得你的免费房产评估",
+        "formTextSmall": "输入你的地址并获得估价",
+        "placeholderOne": "输入您的地址或邮编",
         "customerName": "名字",
         "phone": "电话",
-        "message": "给我们留言"
+        "buttonText": "下一步",
+        "message": "地点栏是必要的!"
     }
 }

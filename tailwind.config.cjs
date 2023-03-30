@@ -21,8 +21,14 @@ module.exports = {
       marine: "#1d355e",
       gray: "#7e868c",
       white: "#f8fafc",
+      black: "rgba(0,0,0,0.7)",
+      bordeau: "rgb(189,27,43)"
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'form': "url('../src/assets/background.jpg')"
+      }
+    },
   },
   plugins: [],
 };
