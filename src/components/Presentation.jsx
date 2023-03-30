@@ -7,11 +7,11 @@ import {
     ApartmentOutlined,
 } from "@ant-design/icons";
 
-const Presentation = ({ titleOne, titleTwo, titleThree, titleFour, titleFive, titleSix, presentationText, expertiseText, approachText, networkText, communicationText, managementText, endText }) => {
+const Presentation = ({ sectionTitle, titleOne, titleTwo, titleThree, titleFour, titleFive, titleSix, presentationText, expertiseText, approachText, networkText, communicationText, managementText, endText }) => {
     return (
         <section className="bg-marine flex flex-col justify-center items-center px-6" id="presentation">
             <h2 className="text-center font-bold py-6 text-white text-2xl">
-                Presentation
+                {sectionTitle}
             </h2>
             <div className="flex flex-col justify-center items-center text-center lg:w-[50%]">
                 <div className="text-white">

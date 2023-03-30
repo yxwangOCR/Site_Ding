@@ -11,7 +11,7 @@ const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, fo
         <li>💫 {formListThree}</li>
         <li>👍 {formListFour}</li>
       </ul>
-      <form className="flex flex-col w-full justify-center px-10 gap-1 md:w-[50%]">
+      <form className="flex flex-col w-full justify-center px-6 gap-1 md:w-[50%]">
         <label htmlFor="">{customerName}</label>
         <input type="text" className="w-[50%] border-2 border-marine" />
         <label htmlFor="">{phone}</label>

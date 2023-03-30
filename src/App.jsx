@@ -40,6 +40,7 @@ function App() {
 
       <Hero sloganText={content.slogan ? content.slogan : "Expertise, experience, excellence - our motto, your trust is our priority"} />
       <Presentation
+        sectionTitle={content.sectionTitle ? content.sectionTitle : "Presentation"}
         titleOne={content.titleOne ? content.titleOne : "Hello and welcome!"}
         titleTwo={content.titleTwo ? content.titleTwo : "Expertise"}
         titleThree={content.titleThree ? content.titleThree : "Personalized Approach"}
