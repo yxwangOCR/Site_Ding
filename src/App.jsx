@@ -14,11 +14,11 @@ function App() {
   const [content, setContent] = useState({})
 
   useEffect(() => {
-    if (language === "EN") {
+    if (language === "English") {
       setContent(Data.en)
-    } else if (language == "FR") {
+    } else if (language == "Français") {
       setContent(Data.fr)
-    } else if (language == "CN") {
+    } else if (language == "中文") {
       setContent(Data.ch)
     }
   })
@@ -31,10 +31,10 @@ function App() {
           about={content.menuThree ? content.menuThree : "About"}
           contact={content.menuFour ? content.menuFour : "Contact"} />
 
-        <select value={language} onChange={(e) => { setLanguage(e.target.value) }}>
-          <option>EN</option>
-          <option>FR</option>
-          <option>CN</option>
+        <select value={language} onChange={(e) => { setLanguage(e.target.value) }} className="bg-white text-marine font-bold text-center">
+          <option>English</option>
+          <option>Français</option>
+          <option>中文</option>
         </select>
       </div>
 

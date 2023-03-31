@@ -10,9 +10,9 @@ function Header({ home, service, about, contact }) {
 
   return (
     <header className="w-full ">
-      <div className="px-12 flex justify-between items-center w-full h-full">
-        <div className="flex items-center text-white">
-          <h1 className="text-3xl font-bold mr-4 xs:text-4xl">Wiimmo</h1>
+      <div className="flex justify-start items-center w-full h-full">
+        <div className="flex items-center text-white px-6">
+          <h1 className="text-2xl font-bold mr-4 xs:text-md">Wiimmo</h1>
           <ul className="hidden sm:flex">
             <li className="px-2">{home}</li>
             <li className="px-2">{service}</li>
@@ -22,9 +22,9 @@ function Header({ home, service, about, contact }) {
         </div>
         <div className="sm:hidden" onClick={handleClick}>
           {nav ? (
-            <CloseOutlined className="text-3xl xs:text-4xl text-white cursor-pointer" />
+            <CloseOutlined className="text-2xl xs:text-md text-white cursor-pointer" />
           ) : (
-            <MenuOutlined className="text-3xl xs:text-4xl text-white cursor-pointer" />
+            <MenuOutlined className="text-2xl xs:text-md text-white cursor-pointer" />
           )}
         </div>
       </div>
