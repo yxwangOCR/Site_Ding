@@ -48,7 +48,7 @@ function App() {
         formListThree={content.formListThree ? content.formListThree : "Don't hesitate to reach out to us and take advantage of this service."}
         customerName={content.customerName ? content.customerName : "Your name"}
         phone={content.phone ? content.phone : "Your phone number"}
-        formDescription={content.formDescription ? content.formDescription : "GET YOUR FREE PROPERTY ESTIMATE!"}
+        formDescription={content.formDescription ? content.formDescription : "Get Your Free Property Estimate!"}
         formTextSmall={content.formTextSmall ? content.formTextSmall : "Enter your address and get the value"}
         placeholderOne={content.placeholderOne ? content.placeholderOne : "Enter your address or postal code"}
         buttonText={content.buttonText ? content.buttonText : "Next"}
