@@ -14,10 +14,10 @@ function Header({ home, service, about, contact }) {
         <div className="flex items-center text-white px-6">
           <h1 className="text-2xl font-bold mr-4 xs:text-md">Wiimmo</h1>
           <ul className="hidden sm:flex">
-            <li className="px-2">{home}</li>
-            <li className="px-2">{service}</li>
-            <li className="px-2">{about}</li>
-            <li className="px-2">{contact}</li>
+            <li className="px-2 cursor-pointer">{home}</li>
+            <li className="px-2 cursor-pointer">{service}</li>
+            <li className="px-2 cursor-pointer">{about}</li>
+            <li className="px-2 cursor-pointer">{contact}</li>
           </ul>
         </div>
         <div className="sm:hidden" onClick={handleClick}>

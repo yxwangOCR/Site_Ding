@@ -29,7 +29,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'form': "url('../src/assets/background.jpg')"
+        'form': "url('../src/assets/background.jpg')",
+        'footerbg': "url('../src/assets/footerbg.jpg')"
       }
     },
   },
