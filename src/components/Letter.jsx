@@ -9,7 +9,7 @@ const Letter = ({ letterTitle, letter }) => {
                     {letterTitle}
                 </h5>
                 <article className="text-white text-justify">
-                    <p><em>{letter}</em></p>
+                    <p>{letter}</p>
                 </article>
             </div>
         </section>

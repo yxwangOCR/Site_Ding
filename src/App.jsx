@@ -42,11 +42,10 @@ function App() {
         letter={content.letter ? content.letter : "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property."} />
       <Form
         formTitle={content.formTitle ? content.formTitle : "Contact Us"}
-        formText={content.formText ? content.formText : "In this table, your customers can fill in their first and last name, phone number, email address, type of request (e.g. selling a house, buying a property, renting an apartment, etc.), the address of the property to be sold (if it is a sale request), and additional comments. You can customize the column headers according to your needs."}
+        formText={content.formText ? content.formText : "If you're interested in knowing the value of your property, we're here to help. Simply enter your address and contact information, and we'll provide you with an estimate of your property's worth."}
         formListOne={content.formListOne ? content.formListOne : "Don't miss this unique opportunity."}
         formListTwo={content.formListTwo ? content.formListTwo : "You're just one click away from finding the solution you've been looking for."}
-        formListThree={content.formListThree ? content.formListThree : "Are you ready to discover the key to success?"}
-        formListFour={content.formListFour ? content.formListFour : "Don't wait any longer to improve your life."}
+        formListThree={content.formListThree ? content.formListThree : "Don't hesitate to reach out to us and take advantage of this service."}
         customerName={content.customerName ? content.customerName : "Your name"}
         phone={content.phone ? content.phone : "Your phone number"}
         formDescription={content.formDescription ? content.formDescription : "GET YOUR FREE PROPERTY ESTIMATE!"}
