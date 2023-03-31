@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 
 
-const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, formListFour, formDescription, formTextSmall, customerName, phone, placeholderOne, buttonText, message }) => {
+const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, formDescription, formTextSmall, placeholderOne, buttonText, message }) => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => console.log(data);
   console.log(watch("example"));
@@ -35,18 +35,3 @@ const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, fo
 };
 
 export default Form;
-
-
-/*
- <form className="flex flex-col w-full justify-center px-6 gap-1 md:w-[50%]">
-        <label htmlFor="">{customerName}</label>
-        <input type="text" className="w-[50%] border-2 border-marine" />
-        <label htmlFor="">{phone}</label>
-        <input type="text" className="w-[50%] border-2 border-marine" />
-        <label htmlFor="">Email</label>
-        <input type="text" className="w-[50%] border-2 border-marine" />
-        <label htmlFor="">{message}</label>
-        <textarea name="" id="" cols="30" rows="6" className="border-2 border-marine"></textarea>
-        <button className="bg-marine text-white w-[30%] my-2 p-2 rounded-md">Send</button>
-  </form>
-*/

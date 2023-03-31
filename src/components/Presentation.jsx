@@ -9,7 +9,7 @@ import {
 
 const Presentation = ({ sectionTitle, titleOne, titleTwo, titleThree, titleFour, titleFive, titleSix, presentationText, expertiseText, approachText, networkText, communicationText, managementText, endText }) => {
     return (
-        <section className="bg-marine flex flex-col justify-center items-center px-6" id="presentation">
+        <section className="bg-marine flex flex-col justify-center items-center px-6" id="about">
             <h2 className="text-center font-bold py-6 text-white text-2xl">
                 {sectionTitle}
             </h2>
@@ -23,7 +23,7 @@ const Presentation = ({ sectionTitle, titleOne, titleTwo, titleThree, titleFour,
                     </article>
                 </div>
 
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center w-[60%]">
                     <div className="">
                         <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <RocketOutlined /> <b>{titleTwo}</b>

@@ -26,7 +26,7 @@ function App() {
     <div>
       <div className="w-screen bg-marine h-[80px] drop-shadow-lg flex ">
         <Header
-          home={content.menuOne ? content.menuOne : "Home"}
+          review={content.menuOne ? content.menuOne : "Review"}
           service={content.menuTwo ? content.menuTwo : "Service"}
           about={content.menuThree ? content.menuThree : "About"}
           contact={content.menuFour ? content.menuFour : "Contact"} />
@@ -41,7 +41,7 @@ function App() {
       <Letter letterTitle={content.letterTitle ? content.letterTitle : "Dear homeowners,"}
         letter={content.letter ? content.letter : "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property."} />
       <Form
-        formTitle={content.formTitle ? content.formTitle : "Contact Us"}
+        formTitle={content.formTitle ? content.formTitle : "Our Services"}
         formText={content.formText ? content.formText : "If you're interested in knowing the value of your property, we're here to help. Simply enter your address and contact information, and we'll provide you with an estimate of your property's worth."}
         formListOne={content.formListOne ? content.formListOne : "Don't miss this unique opportunity."}
         formListTwo={content.formListTwo ? content.formListTwo : "You're just one click away from finding the solution you've been looking for."}

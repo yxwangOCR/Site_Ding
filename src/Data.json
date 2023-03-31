@@ -1,13 +1,13 @@
 {
     "en": {
-        "menuOne": "Home",
+        "menuOne": "Review",
         "menuTwo": "Service",
         "menuThree": "About",
         "menuFour": "Contact",
         "slogan": "Expertise, experience, excellence - our motto, your trust is our priority",
         "presentation": "I am an experienced real estate broker, specializing in the sale and purchase of properties for my clients. My main goal is to provide exceptional quality service and help you achieve your real estate dreams. Here are some of my professional strengths that you might be interested in:",
         "expertise": "With several years of experience in the real estate industry, I am an expert in the real estate market. I am knowledgeable about market trends, the most sought-after neighborhoods, and current sale prices. I can help you get the best possible deal for your property, whether you're looking to sell or buy.",
-        "approach": ":I believe that every client has different needs and goals. That's why I take a personalized approach for each client. I take the time to understand your needs and expectations, and work with you to find a solution that fits your unique situation.",
+        "approach": "I believe that every client has different needs and goals. That's why I take a personalized approach for each client. I take the time to understand your needs and expectations, and work with you to find a solution that fits your unique situation.",
         "network": "I have an extensive network of real estate professionals, including notaries, mortgage brokers, construction contractors, building inspectors, and more. I can recommend the best people to help you achieve your real estate goals.",
         "communication": "I believe in honest and transparent communication with my clients. I will keep you informed at every step of your real estate transaction, and answer any questions you may have quickly and efficiently.",
         "management": "I have a great deal of experience in managing complex real estate projects. I can help you coordinate the different stages of your real estate transaction, ensuring that everything goes smoothly.",
@@ -23,7 +23,7 @@
         "temoTitle": "Review",
         "letterTitle": "Dear homeowners,",
         "letter": "As an experienced real estate broker, I know how important it is for you to have an accurate estimate of the value of your property. If you are considering selling your home or apartment, a detailed appraisal can help you determine the optimal selling price. I invite you to contact me so that we can discuss your property. Leaving This evaluation will help you get a better idea of the value of your property and allow you to make informed decisions regarding the sale of your property. Please feel free to contact me by leaving your address below. I will be happy to provide you with a free and detailed evaluation of your property.",
-        "formTitle": "Contact Us",
+        "formTitle": "Our Services",
         "formText": "If you're interested in knowing the value of your property, we're here to help. Simply enter your address and contact information, and we'll provide you with an estimate of your property's worth. ",
         "formListOne": "Our team of experienced real estate professionals has the expertise and tools to provide you with a fair and accurate assessment. ",
         "formListTwo": "We understand that determining the value of your home can be a daunting task, but with our help, you can be confident that you're getting an honest evaluation. ",
@@ -37,7 +37,7 @@
         "message": "Location field is necessary!"
     },
     "fr": {
-        "menuOne": "Accueil",
+        "menuOne": "Évaluation",
         "menuTwo": "Service",
         "menuThree": "A propos",
         "menuFour": "Contact",
@@ -60,7 +60,7 @@
         "temoTitle": "Témoignage",
         "letterTitle": "Chers propriétaires,",
         "letter": "En tant que courtier immobilier expérimenté, je sais combien il est important pour vous d'avoir une estimation précise de la valeur de votre propriété. Si vous envisagez de vendre votre maison ou votre appartement, une évaluation détaillée peut vous aider à déterminer le prix de vente optimal. Je vous invite donc à me contacter pour que nous puissions discuter de votre propriété. En laissant votre adresse, je peux fournir une évaluation détaillée et personnalisée de votre propriété, qui prendra en compte les spécificités de votre quartier, les tendances du marché et l'état actuel de votre propriété. Cette évaluation vous aidera à avoir une meilleure idée de la valeur de votre propriété et vous permettra de prendre des décisions éclairées concernant la vente de votre bien immobilier. N'hésitez pas à me contacter en laissant votre adresse ci-dessous. Je serai ravi de vous fournir une évaluation gratuite et détaillée de votre propriété.",
-        "formTitle": "Contactez nous",
+        "formTitle": "Nos services",
         "formText": "Si vous souhaitez connaître la valeur de votre bien, nous sommes là pour vous aider. Il vous suffit d'indiquer votre adresse et vos coordonnées et nous vous fournirons une estimation de la valeur de votre bien. ",
         "formListOne": "Notre équipe de professionnels de l'immobilier expérimentés dispose de l'expertise et des outils nécessaires pour vous fournir une évaluation juste et précise. ",
         "formListTwo": "Nous comprenons que la détermination de la valeur de votre maison peut être une véritable gageure, mais avec notre aide, vous pouvez être sûr d'obtenir une évaluation honnête. ",
@@ -74,7 +74,7 @@
         "message": "Le champ de localisation est nécessaire!"
     },
     "ch": {
-        "menuOne": "首页",
+        "menuOne": "评价",
         "menuTwo": "服务",
         "menuThree": "关于我们",
         "menuFour": "联系我们",
@@ -97,7 +97,7 @@
         "temoTitle": "客户评价",
         "letterTitle": "亲爱的房主们,",
         "letter": "作为一名经验丰富的房地产经纪人，我知道对您的房产价值进行准确的评估对您来说是多么重要。如果您正在考虑出售您的房子或公寓，一个详细的估价可以帮助您确定最佳的销售价格。我邀请您与我联系，以便我们可以讨论您的房产。只要留下您的地址，我就可以对您的房产进行详细的个性化评估，这将考虑到您所在社区的具体情况，市场趋势和您的房产的当前状况。这种评估将帮助您更好地了解您的房产价值，并让您在出售房产方面做出明智的决定。请在下面留下您的地址，随时与我联系。我很乐意为您提供一份免费的详细房产估价。",
-        "formTitle": "联系我们",
+        "formTitle": "我们的服务",
         "formText": "如果您有兴趣知道您的房产的价值，我们将在这里提供帮助。只要输入您的地址和联系信息，我们就会为您提供您的房产价值评估。",
         "formListOne": "我们的团队由经验丰富的房地产专业人士组成，拥有专业的知识和工具，可以为您提供一个公平和准确的评估。",
         "formListTwo": "我们知道，确定您的房子的价值可能是一项艰巨的任务，但在我们的帮助下，您可以确信您得到的是一个诚实的评估。",
