@@ -14,10 +14,10 @@ function Header({ home, service, about, contact, review }) {
         <div className="flex items-center text-white px-6">
           <h1 className="text-2xl font-bold mr-4 xs:text-md">Wiimmo</h1>
           <ul className="hidden sm:flex">
-            <a href="#form"><li className="px-2 cursor-pointer">{service}</li></a>
-            <a href="#about"><li className="px-2 cursor-pointer">{about}</li></a>
-            <a href="#review"><li className="px-2 cursor-pointer">{review}</li></a>
-            <a href="#contact"><li className="px-2 cursor-pointer">{contact}</li></a>
+            <a href="#form"><li className="px-2 cursor-pointer hover:text-bordeau">{service}</li></a>
+            <a href="#about"><li className="px-2 cursor-pointer hover:text-bordeau">{about}</li></a>
+            <a href="#review"><li className="px-2 cursor-pointer hover:text-bordeau">{review}</li></a>
+            <a href="#contact"><li className="px-2 cursor-pointer hover:text-bordeau">{contact}</li></a>
           </ul>
 
 
@@ -36,14 +36,14 @@ function Header({ home, service, about, contact, review }) {
       <ul
         className={
           nav
-            ? "absolute bg-bordeau opacity-90 w-full h-screen px-8 text-white sm:hidden"
+            ? "absolute bg-bordeau opacity-95 w-full px-8 py-16 text-white sm:hidden"
             : "hidden"
         }
       >
-        <li className="border-b-2 border-marine w-full py-4">Service</li>
-        <li className="border-b-2 border-marine w-full py-4">About</li>
-        <li className="border-b-2 border-marine w-full py-4">Review</li>
-        <li className="border-b-2 border-marine w-full py-4">Contact</li>
+        <a href="#form" onClick={handleClick}><li className="border-b-2 border-marine w-full py-4">{service}</li></a>
+        <a href="#about" onClick={handleClick}><li className="border-b-2 border-marine w-full py-4">{about}</li></a>
+        <a href="#review" onClick={handleClick}><li className="border-b-2 border-marine w-full py-4">{review}</li></a>
+        <a href="#contact" onClick={handleClick}><li className="border-b-2 border-marine w-full py-4">{contact}</li></a>
       </ul>
 
 
@@ -52,13 +52,3 @@ function Header({ home, service, about, contact, review }) {
 }
 
 export default Header;
-
-
-/*
-<ul className="hidden sm:flex">
-            <li className="px-2 cursor-pointer">{service}</li>
-            <li className="px-2 cursor-pointer">{about}</li>
-            <li className="px-2 cursor-pointer">{review}</li>
-            <li className="px-2 cursor-pointer">{contact}</li>
-          </ul>
-*/

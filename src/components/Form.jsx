@@ -24,7 +24,7 @@ const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, fo
                 <input type="text" placeholder={placeholderOne} className="w-[70%] p-2 rounded-sm placeholder:text-xs" {...register("messageRequired", { required: true })} />
                 <input type="text" placeholder="Apt #" className="w-[30%] p-2 rounded-sm placeholder:text-xs" />
               </div>
-              <button type="sumbit" className="bg-bordeau text-white p-2 rounded-md cursor-pointer w-[100%] md:w-[30%]">{buttonText}</button>
+              <button type="sumbit" className="bg-bordeau text-white p-2 rounded-md cursor-pointer w-[100%] md:w-[30%] hover:bg-white hover:text-bordeau">{buttonText}</button>
             </div>
             {errors.messageRequired && <span className="text-center text-bordeau">{message}</span>}
           </form>

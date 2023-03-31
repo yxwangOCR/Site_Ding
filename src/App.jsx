@@ -31,7 +31,7 @@ function App() {
           about={content.menuThree ? content.menuThree : "About"}
           contact={content.menuFour ? content.menuFour : "Contact"} />
 
-        <select value={language} onChange={(e) => { setLanguage(e.target.value) }} className="bg-white text-marine font-bold text-center">
+        <select value={language} onChange={(e) => { setLanguage(e.target.value) }} className="bg-white text-marine font-bold text-center cursor-pointer">
           <option>English</option>
           <option>Français</option>
           <option>中文</option>

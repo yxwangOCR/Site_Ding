@@ -23,7 +23,7 @@ const Presentation = ({ sectionTitle, titleOne, titleTwo, titleThree, titleFour,
                     </article>
                 </div>
 
-                <div className="flex flex-col justify-center items-center w-[60%]">
+                <div className="flex flex-col justify-center items-center lg:w-[60%]">
                     <div className="">
                         <h4 className="flex text-white justify-center items-center gap-2 py-4">
                             <RocketOutlined /> <b>{titleTwo}</b>
