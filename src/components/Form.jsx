@@ -1,10 +1,11 @@
 import { useForm } from "react-hook-form";
-
+import Places from "./Places"
 
 const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, formDescription, formTextSmall, placeholderOne, buttonText, message }) => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => console.log(data);
   console.log(watch("example"));
+
   return (
     <section className="flex flex-col w-full justify-center items-center text-marine" id="form">
       <h2 className="text-center font-bold py-6 text-2xl">{formTitle}</h2>
@@ -28,6 +29,7 @@ const Form = ({ formTitle, formText, formListOne, formListTwo, formListThree, fo
             </div>
             {errors.messageRequired && <span className="text-center text-bordeau">{message}</span>}
           </form>
+          <Places />
         </div>
       </fieldset>
     </section>

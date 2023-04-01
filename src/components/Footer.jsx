@@ -2,7 +2,12 @@ import React from "react";
 import Link from "./Link";
 import { MailFilled, PhoneFilled } from '@ant-design/icons';
 
+
+
+
 const Footer = () => {
+
+
   return (
     <footer className="w-screen py-8 flex flex-col items-center text-white bg-marine" id="contact">
       <div className="flex flex-col justify-start p-8">
@@ -16,6 +21,7 @@ const Footer = () => {
         <div className="flex items-center gap-1"><PhoneFilled /><p className='text-md'><a href="tel:+15149755155">+1 (514)-975-5155</a></p></div>
 
         <Link />
+
       </div>
 
       <p className="mt-6">Copyright@2023</p>
