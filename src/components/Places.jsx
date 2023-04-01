@@ -3,8 +3,8 @@ import { GoogleMap, LoadScript, Marker, useLoadScript } from "@react-google-maps
 import usePlacesAutocomplete, { getGeocode, getLatLng } from 'use-places-autocomplete';
 
 const containerStyle = {
-    width: '350px',
-    height: '350px'
+    width: '14rem',
+    height: '14rem',
 };
 
 const Places = () => {
